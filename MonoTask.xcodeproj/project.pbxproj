@@ -13,6 +13,16 @@
 		CBA48445201E6CA50091CECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA48444201E6CA50091CECF /* main.m */; };
 		CBA48450201E6CA50091CECF /* MonoTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA4844F201E6CA50091CECF /* MonoTaskTests.m */; };
 		CBA4845B201E6CA50091CECF /* MonoTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA4845A201E6CA50091CECF /* MonoTaskUITests.m */; };
+		CBA48469201E7CC30091CECF /* fullscreen.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CBA48468201E7CC30091CECF /* fullscreen.scpt */; };
+		CBA4846C201E981D0091CECF /* README in Resources */ = {isa = PBXBuildFile; fileRef = CBA4846B201E981D0091CECF /* README */; };
+		CBA4846E201E98A50091CECF /* menu-bar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA4846D201E98A50091CECF /* menu-bar-icon.png */; };
+		CBA48472201EE1790091CECF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CBA48471201EE1790091CECF /* Podfile */; };
+		CBD18E64201EEBC500EFBEC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD18E63201EEBC500EFBEC0 /* AppDelegate.m */; };
+		CBD18E66201EEBC500EFBEC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD18E65201EEBC500EFBEC0 /* Assets.xcassets */; };
+		CBD18E69201EEBC500EFBEC0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD18E67201EEBC500EFBEC0 /* MainMenu.xib */; };
+		CBD18E6C201EEBC500EFBEC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD18E6B201EEBC500EFBEC0 /* main.m */; };
+		CBD18E72201EEC6000EFBEC0 /* MonoTaskLoginHelper.app in Copy Helper Tool */ = {isa = PBXBuildFile; fileRef = CBD18E60201EEBC500EFBEC0 /* MonoTaskLoginHelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF3A55C93FABBB42D0F95C32 /* libPods-MonoTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD737841B3C706C3114B6872 /* libPods-MonoTask.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,9 +40,32 @@
 			remoteGlobalIDString = CBA48437201E6CA50091CECF;
 			remoteInfo = MonoTask;
 		};
+		CBD18E73201EED3000EFBEC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBA48430201E6CA50091CECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBD18E5F201EEBC500EFBEC0;
+			remoteInfo = MonoTaskLoginHelper;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CBD18E71201EEC3700EFBEC0 /* Copy Helper Tool */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				CBD18E72201EEC6000EFBEC0 /* MonoTaskLoginHelper.app in Copy Helper Tool */,
+			);
+			name = "Copy Helper Tool";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5F2EA192D9492C4620AF6A0E /* Pods-MonoTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonoTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonoTask/Pods-MonoTask.debug.xcconfig"; sourceTree = "<group>"; };
+		AD737841B3C706C3114B6872 /* libPods-MonoTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MonoTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA48438201E6CA50091CECF /* MonoTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonoTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA4843B201E6CA50091CECF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBA4843C201E6CA50091CECF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,6 +80,20 @@
 		CBA48456201E6CA50091CECF /* MonoTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonoTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA4845A201E6CA50091CECF /* MonoTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonoTaskUITests.m; sourceTree = "<group>"; };
 		CBA4845C201E6CA50091CECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA48468201E7CC30091CECF /* fullscreen.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = fullscreen.scpt; sourceTree = "<group>"; };
+		CBA4846A201E80F60091CECF /* SystemEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemEvents.h; sourceTree = "<group>"; };
+		CBA4846B201E981D0091CECF /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		CBA4846D201E98A50091CECF /* menu-bar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-bar-icon.png"; sourceTree = "<group>"; };
+		CBA48471201EE1790091CECF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CBD18E60201EEBC500EFBEC0 /* MonoTaskLoginHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonoTaskLoginHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD18E62201EEBC500EFBEC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBD18E63201EEBC500EFBEC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBD18E65201EEBC500EFBEC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBD18E68201EEBC500EFBEC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CBD18E6A201EEBC500EFBEC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD18E6B201EEBC500EFBEC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBD18E6D201EEBC500EFBEC0 /* MonoTaskLoginHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MonoTaskLoginHelper.entitlements; sourceTree = "<group>"; };
+		FB39879E6251C2FF07DC21B3 /* Pods-MonoTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonoTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonoTask/Pods-MonoTask.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3A55C93FABBB42D0F95C32 /* libPods-MonoTask.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,16 +119,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CBD18E5D201EEBC500EFBEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76CA11B0D76DB2C71C197418 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F2EA192D9492C4620AF6A0E /* Pods-MonoTask.debug.xcconfig */,
+				FB39879E6251C2FF07DC21B3 /* Pods-MonoTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EF9996B2B04FAC6B1C0301E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD737841B3C706C3114B6872 /* libPods-MonoTask.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CBA4842F201E6CA50091CECF = {
 			isa = PBXGroup;
 			children = (
+				CBA48471201EE1790091CECF /* Podfile */,
 				CBA4843A201E6CA50091CECF /* MonoTask */,
 				CBA4844E201E6CA50091CECF /* MonoTaskTests */,
 				CBA48459201E6CA50091CECF /* MonoTaskUITests */,
+				CBD18E61201EEBC500EFBEC0 /* MonoTaskLoginHelper */,
 				CBA48439201E6CA50091CECF /* Products */,
+				76CA11B0D76DB2C71C197418 /* Pods */,
+				9EF9996B2B04FAC6B1C0301E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +166,7 @@
 				CBA48438201E6CA50091CECF /* MonoTask.app */,
 				CBA4844B201E6CA50091CECF /* MonoTaskTests.xctest */,
 				CBA48456201E6CA50091CECF /* MonoTaskUITests.xctest */,
+				CBD18E60201EEBC500EFBEC0 /* MonoTaskLoginHelper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,13 +174,16 @@
 		CBA4843A201E6CA50091CECF /* MonoTask */ = {
 			isa = PBXGroup;
 			children = (
+				CBA4846A201E80F60091CECF /* SystemEvents.h */,
 				CBA4843B201E6CA50091CECF /* AppDelegate.h */,
 				CBA4843C201E6CA50091CECF /* AppDelegate.m */,
 				CBA4843E201E6CA50091CECF /* Assets.xcassets */,
 				CBA48440201E6CA50091CECF /* MainMenu.xib */,
 				CBA48443201E6CA50091CECF /* Info.plist */,
+				CBA4846B201E981D0091CECF /* README */,
 				CBA48444201E6CA50091CECF /* main.m */,
 				CBA48446201E6CA50091CECF /* MonoTask.entitlements */,
+				CBA4846D201E98A50091CECF /* menu-bar-icon.png */,
 			);
 			path = MonoTask;
 			sourceTree = "<group>";
@@ -113,6 +193,7 @@
 			children = (
 				CBA4844F201E6CA50091CECF /* MonoTaskTests.m */,
 				CBA48451201E6CA50091CECF /* Info.plist */,
+				CBA48468201E7CC30091CECF /* fullscreen.scpt */,
 			);
 			path = MonoTaskTests;
 			sourceTree = "<group>";
@@ -126,6 +207,20 @@
 			path = MonoTaskUITests;
 			sourceTree = "<group>";
 		};
+		CBD18E61201EEBC500EFBEC0 /* MonoTaskLoginHelper */ = {
+			isa = PBXGroup;
+			children = (
+				CBD18E62201EEBC500EFBEC0 /* AppDelegate.h */,
+				CBD18E63201EEBC500EFBEC0 /* AppDelegate.m */,
+				CBD18E65201EEBC500EFBEC0 /* Assets.xcassets */,
+				CBD18E67201EEBC500EFBEC0 /* MainMenu.xib */,
+				CBD18E6A201EEBC500EFBEC0 /* Info.plist */,
+				CBD18E6B201EEBC500EFBEC0 /* main.m */,
+				CBD18E6D201EEBC500EFBEC0 /* MonoTaskLoginHelper.entitlements */,
+			);
+			path = MonoTaskLoginHelper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,13 +228,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBA4845F201E6CA50091CECF /* Build configuration list for PBXNativeTarget "MonoTask" */;
 			buildPhases = (
+				26339657FF08683260876C53 /* [CP] Check Pods Manifest.lock */,
 				CBA48434201E6CA50091CECF /* Sources */,
 				CBA48435201E6CA50091CECF /* Frameworks */,
+				CBD18E71201EEC3700EFBEC0 /* Copy Helper Tool */,
 				CBA48436201E6CA50091CECF /* Resources */,
+				00FC69A6AB1B5E5766B9C309 /* [CP] Embed Pods Frameworks */,
+				648DD50FDBC17F1776E9F963 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CBD18E74201EED3000EFBEC0 /* PBXTargetDependency */,
 			);
 			name = MonoTask;
 			productName = MonoTask;
@@ -182,6 +282,23 @@
 			productReference = CBA48456201E6CA50091CECF /* MonoTaskUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CBD18E5F201EEBC500EFBEC0 /* MonoTaskLoginHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD18E70201EEBC500EFBEC0 /* Build configuration list for PBXNativeTarget "MonoTaskLoginHelper" */;
+			buildPhases = (
+				CBD18E5C201EEBC500EFBEC0 /* Sources */,
+				CBD18E5D201EEBC500EFBEC0 /* Frameworks */,
+				CBD18E5E201EEBC500EFBEC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonoTaskLoginHelper;
+			productName = MonoTaskHelper;
+			productReference = CBD18E60201EEBC500EFBEC0 /* MonoTaskLoginHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,6 +311,11 @@
 					CBA48437201E6CA50091CECF = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					CBA4844A201E6CA50091CECF = {
 						CreatedOnToolsVersion = 9.2;
@@ -204,6 +326,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CBA48437201E6CA50091CECF;
+					};
+					CBD18E5F201EEBC500EFBEC0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -223,6 +349,7 @@
 				CBA48437201E6CA50091CECF /* MonoTask */,
 				CBA4844A201E6CA50091CECF /* MonoTaskTests */,
 				CBA48455201E6CA50091CECF /* MonoTaskUITests */,
+				CBD18E5F201EEBC500EFBEC0 /* MonoTaskLoginHelper */,
 			);
 		};
 /* End PBXProject section */
@@ -232,7 +359,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBA48472201EE1790091CECF /* Podfile in Resources */,
+				CBA4846C201E981D0091CECF /* README in Resources */,
+				CBA4846E201E98A50091CECF /* menu-bar-icon.png in Resources */,
 				CBA4843F201E6CA50091CECF /* Assets.xcassets in Resources */,
+				CBA48469201E7CC30091CECF /* fullscreen.scpt in Resources */,
 				CBA48442201E6CA50091CECF /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +382,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CBD18E5E201EEBC500EFBEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD18E66201EEBC500EFBEC0 /* Assets.xcassets in Resources */,
+				CBD18E69201EEBC500EFBEC0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00FC69A6AB1B5E5766B9C309 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonoTask/Pods-MonoTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26339657FF08683260876C53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		648DD50FDBC17F1776E9F963 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonoTask/Pods-MonoTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CBA48434201E6CA50091CECF /* Sources */ = {
@@ -279,6 +467,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CBD18E5C201EEBC500EFBEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD18E6C201EEBC500EFBEC0 /* main.m in Sources */,
+				CBD18E64201EEBC500EFBEC0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +489,11 @@
 			target = CBA48437201E6CA50091CECF /* MonoTask */;
 			targetProxy = CBA48457201E6CA50091CECF /* PBXContainerItemProxy */;
 		};
+		CBD18E74201EED3000EFBEC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBD18E5F201EEBC500EFBEC0 /* MonoTaskLoginHelper */;
+			targetProxy = CBD18E73201EED3000EFBEC0 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -299,6 +501,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				CBA48441201E6CA50091CECF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CBD18E67201EEBC500EFBEC0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD18E68201EEBC500EFBEC0 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -411,6 +621,7 @@
 		};
 		CBA48460201E6CA50091CECF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F2EA192D9492C4620AF6A0E /* Pods-MonoTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MonoTask/MonoTask.entitlements;
@@ -426,6 +637,7 @@
 		};
 		CBA48461201E6CA50091CECF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB39879E6251C2FF07DC21B3 /* Pods-MonoTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MonoTask/MonoTask.entitlements;
@@ -497,6 +709,36 @@
 			};
 			name = Release;
 		};
+		CBD18E6E201EEBC500EFBEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MonoTaskLoginHelper/MonoTaskLoginHelper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L6W5L88KN7;
+				INFOPLIST_FILE = MonoTaskLoginHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monotask.MonoTaskLoginHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBD18E6F201EEBC500EFBEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MonoTaskLoginHelper/MonoTaskLoginHelper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L6W5L88KN7;
+				INFOPLIST_FILE = MonoTaskLoginHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monotask.MonoTaskLoginHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -532,6 +774,15 @@
 			buildConfigurations = (
 				CBA48466201E6CA50091CECF /* Debug */,
 				CBA48467201E6CA50091CECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD18E70201EEBC500EFBEC0 /* Build configuration list for PBXNativeTarget "MonoTaskLoginHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD18E6E201EEBC500EFBEC0 /* Debug */,
+				CBD18E6F201EEBC500EFBEC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

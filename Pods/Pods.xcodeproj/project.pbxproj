@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07897B8BF3F26EB3D1CD1938FDAAC0B1 /* NSString+ah_versionCompare.m in Sources */ = {isa = PBXBuildFile; fileRef = 65506B958FF20469A5F9A7FFEC5A204E /* NSString+ah_versionCompare.m */; };
+		10DBA57B5B53EA763272468B51FD18E7 /* AHLaunchCtl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F26EB2700FEA87BF6824312A63290D0 /* AHLaunchCtl-dummy.m */; };
+		162E1BAA7F1EBC8ED1EDF76AA59BB905 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF582788ADE524C94724A53318D9B8D8 /* Cocoa.framework */; };
+		26282E6749A26DABBB7258E334430C7A /* AHAuthorizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36060CA8BA37668299BD557A37AA74D4 /* AHAuthorizer.m */; };
+		2AFEB7763C004FE27F2411A07CBED5D3 /* AHServiceManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB74D6CB607457BDCA4D6C97D754C /* AHServiceManagement.m */; };
+		39FF882F8674E41316D9DAB643DF6646 /* AHLaunchCtl.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B84A8E5B5F1345B3DEF4783A355C19 /* AHLaunchCtl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4819DA1DFBA786149A221D7373C7803D /* AHAuthorizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B7B602BE80AD8EEDA0A9D1CFC34A7C /* AHAuthorizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		577344445627FEEF8837AA01BEAC9437 /* NSFileManger+Privileged.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB22D5E9D0CD13B8093195591830B1A /* NSFileManger+Privileged.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5977F1B7AB24EAB6978B188F364681EA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C516B7E64A408F54D1D5FB90A34F6C8 /* SystemConfiguration.framework */; };
+		83EFD8F647B8A84940A0B10E21F826FE /* NSFileManger+Privileged.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCFAB9EB8F0E3961BA9F726F95E167 /* NSFileManger+Privileged.m */; };
+		8E3F42274DC924664F8B8FBFDBFAFDC8 /* AHLaunchJob.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F8D190AC396F59AFC659075EE9BDA4 /* AHLaunchJob.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2228714CF90889FD71ECD0CA5D08B96 /* AHLaunchJobSchedule.h in Headers */ = {isa = PBXBuildFile; fileRef = B73F7A3499D9D6DE6743BFDE57233D05 /* AHLaunchJobSchedule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C40531533C25873E6064BE17DB126B /* AHLaunchJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 985051A7B40530A31D920DEB7D2A655A /* AHLaunchJob.m */; };
+		A510738F147A073177275E29167DEE7F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15413C6E7D65B4CBA2A051FBBDD356E9 /* Security.framework */; };
+		B8AD4590298A93790810AF1FEB368A58 /* NSString+ah_versionCompare.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ED0A686CF75AA1255C6C67C1BA53F03 /* NSString+ah_versionCompare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9FBA140618D93A7AD1B7ED096B252E2 /* Pods-MonoTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55127A0E82D5214AE99CAC5C4CF79DE7 /* Pods-MonoTask-dummy.m */; };
+		BCA553DB6BC79D18CFED9963BF69AC14 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF582788ADE524C94724A53318D9B8D8 /* Cocoa.framework */; };
+		BD8BF03167A0ACDA6CD5D8B2EB6A1261 /* AHServiceManagement_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A238691308AB25EDC7A9A1C7E803398 /* AHServiceManagement_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D32B4698B2ADE80AAAF4C45C8F727CF1 /* AHLaunchCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 035568B59C2DBD61DCB4219CD9D03FD6 /* AHLaunchCtl.m */; };
+		E701C1A3EC797F9B986B515FD0DA7CAA /* AHLaunchJobSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E91455CAA0C931612669C62A4F211 /* AHLaunchJobSchedule.m */; };
+		EF8BE375088286DAE74B45DBCD9D9A47 /* AHServiceManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = 97997F73DD37D1834EA8441BED2CA604 /* AHServiceManagement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE196FB81C89C4A9E3AFB8DB84E422D9 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE6F8ACD2ECBE3DB011A99B20F369E2 /* ServiceManagement.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78C1920E47FE9CE95E598C4A0467CC93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD698622B0DBAECD4D5E2A29E389C23D;
+			remoteInfo = AHLaunchCtl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F8D190AC396F59AFC659075EE9BDA4 /* AHLaunchJob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AHLaunchJob.h; path = AHLaunchCtl/AHLaunchJob.h; sourceTree = "<group>"; };
+		035568B59C2DBD61DCB4219CD9D03FD6 /* AHLaunchCtl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AHLaunchCtl.m; path = AHLaunchCtl/AHLaunchCtl.m; sourceTree = "<group>"; };
+		04E0BA723D67A633595D6D86C179F3D8 /* Pods-MonoTask-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MonoTask-acknowledgements.markdown"; sourceTree = "<group>"; };
+		15413C6E7D65B4CBA2A051FBBDD356E9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		1D7E91455CAA0C931612669C62A4F211 /* AHLaunchJobSchedule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AHLaunchJobSchedule.m; path = AHLaunchCtl/AHLaunchJobSchedule.m; sourceTree = "<group>"; };
+		1ED0A686CF75AA1255C6C67C1BA53F03 /* NSString+ah_versionCompare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ah_versionCompare.h"; path = "AHLaunchCtl/NSString+ah_versionCompare.h"; sourceTree = "<group>"; };
+		263F00797973637FC12393A10A4D9000 /* AHLaunchCtl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHLaunchCtl-prefix.pch"; sourceTree = "<group>"; };
+		2C516B7E64A408F54D1D5FB90A34F6C8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		36060CA8BA37668299BD557A37AA74D4 /* AHAuthorizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AHAuthorizer.m; path = AHLaunchCtl/AHAuthorizer.m; sourceTree = "<group>"; };
+		411764199AB88B36FEB886BB35DD5414 /* Pods-MonoTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MonoTask.debug.xcconfig"; sourceTree = "<group>"; };
+		4F42C2203BC5254C132CD5C678B47E26 /* Pods-MonoTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MonoTask.release.xcconfig"; sourceTree = "<group>"; };
+		4F703485961C1B257AD518842F0E91D6 /* libAHLaunchCtl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAHLaunchCtl.a; path = libAHLaunchCtl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		507543B74038E91D4173A21F544CEB35 /* Pods-MonoTask-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MonoTask-frameworks.sh"; sourceTree = "<group>"; };
+		55127A0E82D5214AE99CAC5C4CF79DE7 /* Pods-MonoTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MonoTask-dummy.m"; sourceTree = "<group>"; };
+		64B631B9F309469929914AE811FA481D /* Pods-MonoTask-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MonoTask-resources.sh"; sourceTree = "<group>"; };
+		65506B958FF20469A5F9A7FFEC5A204E /* NSString+ah_versionCompare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ah_versionCompare.m"; path = "AHLaunchCtl/NSString+ah_versionCompare.m"; sourceTree = "<group>"; };
+		7C374F5A8E72318D1DB5F603ACA619AC /* Pods-MonoTask-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MonoTask-acknowledgements.plist"; sourceTree = "<group>"; };
+		82FDB74D6CB607457BDCA4D6C97D754C /* AHServiceManagement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AHServiceManagement.m; path = AHLaunchCtl/AHServiceManagement.m; sourceTree = "<group>"; };
+		8A238691308AB25EDC7A9A1C7E803398 /* AHServiceManagement_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AHServiceManagement_Private.h; path = AHLaunchCtl/AHServiceManagement_Private.h; sourceTree = "<group>"; };
+		8F26EB2700FEA87BF6824312A63290D0 /* AHLaunchCtl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHLaunchCtl-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97997F73DD37D1834EA8441BED2CA604 /* AHServiceManagement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AHServiceManagement.h; path = AHLaunchCtl/AHServiceManagement.h; sourceTree = "<group>"; };
+		985051A7B40530A31D920DEB7D2A655A /* AHLaunchJob.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AHLaunchJob.m; path = AHLaunchCtl/AHLaunchJob.m; sourceTree = "<group>"; };
+		ABB22D5E9D0CD13B8093195591830B1A /* NSFileManger+Privileged.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManger+Privileged.h"; path = "AHLaunchCtl/NSFileManger+Privileged.h"; sourceTree = "<group>"; };
+		B73F7A3499D9D6DE6743BFDE57233D05 /* AHLaunchJobSchedule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AHLaunchJobSchedule.h; path = AHLaunchCtl/AHLaunchJobSchedule.h; sourceTree = "<group>"; };
+		B9B7B602BE80AD8EEDA0A9D1CFC34A7C /* AHAuthorizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AHAuthorizer.h; path = AHLaunchCtl/AHAuthorizer.h; sourceTree = "<group>"; };
+		D2B84A8E5B5F1345B3DEF4783A355C19 /* AHLaunchCtl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AHLaunchCtl.h; path = AHLaunchCtl/AHLaunchCtl.h; sourceTree = "<group>"; };
+		D6C0C840CF8237247AFFB6614FA248FB /* libPods-MonoTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MonoTask.a"; path = "libPods-MonoTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE6F8ACD2ECBE3DB011A99B20F369E2 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/ServiceManagement.framework; sourceTree = DEVELOPER_DIR; };
+		E2CCFAB9EB8F0E3961BA9F726F95E167 /* NSFileManger+Privileged.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManger+Privileged.m"; path = "AHLaunchCtl/NSFileManger+Privileged.m"; sourceTree = "<group>"; };
+		F3ED6A42A362922E490DCE64D58EB4E9 /* AHLaunchCtl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHLaunchCtl.xcconfig; sourceTree = "<group>"; };
+		FF582788ADE524C94724A53318D9B8D8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE00C6DD1CA11E55538FF81BCF768E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA553DB6BC79D18CFED9963BF69AC14 /* Cocoa.framework in Frameworks */,
+				A510738F147A073177275E29167DEE7F /* Security.framework in Frameworks */,
+				FE196FB81C89C4A9E3AFB8DB84E422D9 /* ServiceManagement.framework in Frameworks */,
+				5977F1B7AB24EAB6978B188F364681EA /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E785077037C7305599029EC68CABB504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162E1BAA7F1EBC8ED1EDF76AA59BB905 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		324BFCB6F698A5D12B9FB5005E38C3EC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A56D02E4BD551A8FE9E3362500642 /* Pods-MonoTask */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CD75D5B60FCA72FBF7F9C770460B2C26 /* Frameworks */,
+				9BAC4BF74D86E7BC81E2152D097425AD /* Pods */,
+				DC8A6C731A8F510C600459CDBFF0E8B8 /* Products */,
+				324BFCB6F698A5D12B9FB5005E38C3EC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9BAC4BF74D86E7BC81E2152D097425AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F23A84F1D63ABBC2B111A6E5EC0DBBDC /* AHLaunchCtl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4F476DC40A56243333ED0E4EFFE2FF5 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				FF582788ADE524C94724A53318D9B8D8 /* Cocoa.framework */,
+				15413C6E7D65B4CBA2A051FBBDD356E9 /* Security.framework */,
+				DEE6F8ACD2ECBE3DB011A99B20F369E2 /* ServiceManagement.framework */,
+				2C516B7E64A408F54D1D5FB90A34F6C8 /* SystemConfiguration.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		BCCA45B084EE57AF5E0E6592A20F89CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3ED6A42A362922E490DCE64D58EB4E9 /* AHLaunchCtl.xcconfig */,
+				8F26EB2700FEA87BF6824312A63290D0 /* AHLaunchCtl-dummy.m */,
+				263F00797973637FC12393A10A4D9000 /* AHLaunchCtl-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AHLaunchCtl";
+			sourceTree = "<group>";
+		};
+		CB3A56D02E4BD551A8FE9E3362500642 /* Pods-MonoTask */ = {
+			isa = PBXGroup;
+			children = (
+				04E0BA723D67A633595D6D86C179F3D8 /* Pods-MonoTask-acknowledgements.markdown */,
+				7C374F5A8E72318D1DB5F603ACA619AC /* Pods-MonoTask-acknowledgements.plist */,
+				55127A0E82D5214AE99CAC5C4CF79DE7 /* Pods-MonoTask-dummy.m */,
+				507543B74038E91D4173A21F544CEB35 /* Pods-MonoTask-frameworks.sh */,
+				64B631B9F309469929914AE811FA481D /* Pods-MonoTask-resources.sh */,
+				411764199AB88B36FEB886BB35DD5414 /* Pods-MonoTask.debug.xcconfig */,
+				4F42C2203BC5254C132CD5C678B47E26 /* Pods-MonoTask.release.xcconfig */,
+			);
+			name = "Pods-MonoTask";
+			path = "Target Support Files/Pods-MonoTask";
+			sourceTree = "<group>";
+		};
+		CD75D5B60FCA72FBF7F9C770460B2C26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4F476DC40A56243333ED0E4EFFE2FF5 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC8A6C731A8F510C600459CDBFF0E8B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F703485961C1B257AD518842F0E91D6 /* libAHLaunchCtl.a */,
+				D6C0C840CF8237247AFFB6614FA248FB /* libPods-MonoTask.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F23A84F1D63ABBC2B111A6E5EC0DBBDC /* AHLaunchCtl */ = {
+			isa = PBXGroup;
+			children = (
+				B9B7B602BE80AD8EEDA0A9D1CFC34A7C /* AHAuthorizer.h */,
+				36060CA8BA37668299BD557A37AA74D4 /* AHAuthorizer.m */,
+				D2B84A8E5B5F1345B3DEF4783A355C19 /* AHLaunchCtl.h */,
+				035568B59C2DBD61DCB4219CD9D03FD6 /* AHLaunchCtl.m */,
+				01F8D190AC396F59AFC659075EE9BDA4 /* AHLaunchJob.h */,
+				985051A7B40530A31D920DEB7D2A655A /* AHLaunchJob.m */,
+				B73F7A3499D9D6DE6743BFDE57233D05 /* AHLaunchJobSchedule.h */,
+				1D7E91455CAA0C931612669C62A4F211 /* AHLaunchJobSchedule.m */,
+				97997F73DD37D1834EA8441BED2CA604 /* AHServiceManagement.h */,
+				82FDB74D6CB607457BDCA4D6C97D754C /* AHServiceManagement.m */,
+				8A238691308AB25EDC7A9A1C7E803398 /* AHServiceManagement_Private.h */,
+				ABB22D5E9D0CD13B8093195591830B1A /* NSFileManger+Privileged.h */,
+				E2CCFAB9EB8F0E3961BA9F726F95E167 /* NSFileManger+Privileged.m */,
+				1ED0A686CF75AA1255C6C67C1BA53F03 /* NSString+ah_versionCompare.h */,
+				65506B958FF20469A5F9A7FFEC5A204E /* NSString+ah_versionCompare.m */,
+				BCCA45B084EE57AF5E0E6592A20F89CA /* Support Files */,
+			);
+			name = AHLaunchCtl;
+			path = AHLaunchCtl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		226DC6B11B336F0E8B737D7C75FCAD54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4819DA1DFBA786149A221D7373C7803D /* AHAuthorizer.h in Headers */,
+				39FF882F8674E41316D9DAB643DF6646 /* AHLaunchCtl.h in Headers */,
+				8E3F42274DC924664F8B8FBFDBFAFDC8 /* AHLaunchJob.h in Headers */,
+				A2228714CF90889FD71ECD0CA5D08B96 /* AHLaunchJobSchedule.h in Headers */,
+				EF8BE375088286DAE74B45DBCD9D9A47 /* AHServiceManagement.h in Headers */,
+				BD8BF03167A0ACDA6CD5D8B2EB6A1261 /* AHServiceManagement_Private.h in Headers */,
+				577344445627FEEF8837AA01BEAC9437 /* NSFileManger+Privileged.h in Headers */,
+				B8AD4590298A93790810AF1FEB368A58 /* NSString+ah_versionCompare.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7FE069C893C5AE09F481B36A608A5ADC /* Pods-MonoTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86427813788C91F9AEB3DB962A6AD3E /* Build configuration list for PBXNativeTarget "Pods-MonoTask" */;
+			buildPhases = (
+				CC8E67D511137C25262FC54A0E8D5871 /* Sources */,
+				E785077037C7305599029EC68CABB504 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				489E09D2D2BF7B0318A49B250E821821 /* PBXTargetDependency */,
+			);
+			name = "Pods-MonoTask";
+			productName = "Pods-MonoTask";
+			productReference = D6C0C840CF8237247AFFB6614FA248FB /* libPods-MonoTask.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BD698622B0DBAECD4D5E2A29E389C23D /* AHLaunchCtl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A2FBDE42342419BE5E494136906C76 /* Build configuration list for PBXNativeTarget "AHLaunchCtl" */;
+			buildPhases = (
+				F882E949792ACB41F72BA42B5CADF255 /* Sources */,
+				BE00C6DD1CA11E55538FF81BCF768E65 /* Frameworks */,
+				226DC6B11B336F0E8B737D7C75FCAD54 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHLaunchCtl;
+			productName = AHLaunchCtl;
+			productReference = 4F703485961C1B257AD518842F0E91D6 /* libAHLaunchCtl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DC8A6C731A8F510C600459CDBFF0E8B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD698622B0DBAECD4D5E2A29E389C23D /* AHLaunchCtl */,
+				7FE069C893C5AE09F481B36A608A5ADC /* Pods-MonoTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC8E67D511137C25262FC54A0E8D5871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FBA140618D93A7AD1B7ED096B252E2 /* Pods-MonoTask-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F882E949792ACB41F72BA42B5CADF255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26282E6749A26DABBB7258E334430C7A /* AHAuthorizer.m in Sources */,
+				10DBA57B5B53EA763272468B51FD18E7 /* AHLaunchCtl-dummy.m in Sources */,
+				D32B4698B2ADE80AAAF4C45C8F727CF1 /* AHLaunchCtl.m in Sources */,
+				A4C40531533C25873E6064BE17DB126B /* AHLaunchJob.m in Sources */,
+				E701C1A3EC797F9B986B515FD0DA7CAA /* AHLaunchJobSchedule.m in Sources */,
+				2AFEB7763C004FE27F2411A07CBED5D3 /* AHServiceManagement.m in Sources */,
+				83EFD8F647B8A84940A0B10E21F826FE /* NSFileManger+Privileged.m in Sources */,
+				07897B8BF3F26EB3D1CD1938FDAAC0B1 /* NSString+ah_versionCompare.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		489E09D2D2BF7B0318A49B250E821821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AHLaunchCtl;
+			target = BD698622B0DBAECD4D5E2A29E389C23D /* AHLaunchCtl */;
+			targetProxy = 78C1920E47FE9CE95E598C4A0467CC93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05CC7D184CE374E9F52FA809D9330184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		084B08D8BF7545C7CCA08D6D13CAB862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F42C2203BC5254C132CD5C678B47E26 /* Pods-MonoTask.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4303ABDCC5931186B1B0822478995407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3ED6A42A362922E490DCE64D58EB4E9 /* AHLaunchCtl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHLaunchCtl/AHLaunchCtl-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84E9D172B0C439E7BB13B28E345BA5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		894940C8A78BAB2991B071C03E280F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3ED6A42A362922E490DCE64D58EB4E9 /* AHLaunchCtl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHLaunchCtl/AHLaunchCtl-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		93E41DA6313A018A9AA598A7A56320B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 411764199AB88B36FEB886BB35DD5414 /* Pods-MonoTask.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E9D172B0C439E7BB13B28E345BA5FE /* Debug */,
+				05CC7D184CE374E9F52FA809D9330184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A2FBDE42342419BE5E494136906C76 /* Build configuration list for PBXNativeTarget "AHLaunchCtl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4303ABDCC5931186B1B0822478995407 /* Debug */,
+				894940C8A78BAB2991B071C03E280F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86427813788C91F9AEB3DB962A6AD3E /* Build configuration list for PBXNativeTarget "Pods-MonoTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E41DA6313A018A9AA598A7A56320B4 /* Debug */,
+				084B08D8BF7545C7CCA08D6D13CAB862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

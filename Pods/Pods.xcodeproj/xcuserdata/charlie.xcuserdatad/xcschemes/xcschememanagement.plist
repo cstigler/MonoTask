@@ -4,21 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MonoTask.xcscheme</key>
+		<key>AHLaunchCtl.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
-		<key>MonoTaskHelper.xcscheme</key>
+		<key>Pods-MonoTask.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>MonoTaskLoginHelper.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict/>
 </dict>
 </plist>
